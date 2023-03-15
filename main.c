@@ -1,15 +1,16 @@
-pseudo code
-{
-Initial Function()
-{
-  //Sample Code
+#include <stdio.h>
+
+int feature() {
+  return 1;
 }
 
-Initial Security()
-{
- //Sample Code
+int security() {
+  return -1;
 }
 
-
-
+int main() {
+  int t = feature() + security();
+  printf("%d", t);
+  
+  return 0;
 }
